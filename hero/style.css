@@ -1,0 +1,26 @@
+html,body{
+    margin: 0px; /*completar los espacios sobrantes*/
+}
+.hero-image{
+    height: 70vh;
+    background: url(images/codingsecond2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1.5em; /*la separacion del texto con los bordes*/
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0.5%; /*que tan pegada esta la parte de abajo de la imagen con el texto "desarrollador FrontEnd"*/
+   
+} 
+.hero-image h1{
+    font-size: 55px;
+    margin: 0px;
+    text-shadow: 0px 0px 40px rgb(0, 0, 0);
+}
+.hero-image h3{
+    font-size: 22px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    
+
+}
